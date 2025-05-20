@@ -14,6 +14,7 @@ Before running the code, ensure the following libraries are installed:
 The dataset used in this project is a CSV file (`News.csv`) with two key columns:
   text: The news article's content.
   class: The label indicating whether the article is 'Real' (1) or 'Fake' (0).
+
 4. Methodology
 4.1 Data Preprocessing
 To enhance accuracy, stopwords (common words such as 'the', 'is') are removed from the text. NLTK's stopwords list is used for this purpose. Each article's text is cleaned to ensure only relevant words remain.
@@ -27,6 +28,7 @@ A Logistic Regression model is employed to classify the articles. The model is t
 After training, the model's performance is evaluated using the testing set. Key metrics such as accuracy, precision, recall, and F1-score are computed. A confusion matrix is also generated to visualize the classification results.
 4.6 Visualization
 The confusion matrix is presented as a heatmap to provide a clear depiction of the model's predictions. The matrix shows the number of correctly and incorrectly classified articles in both 'Real' and 'Fake' categories.
+
 5. Results
 The model achieves a satisfactory level of accuracy, demonstrating its ability to effectively distinguish between real and fake news. The detailed classification report and confusion matrix offer insights into the model's strengths and areas for improvement.
 6. Conclusion
