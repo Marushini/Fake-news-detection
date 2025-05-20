@@ -1,6 +1,7 @@
 Fake News Detection Using Python
 1. Introduction
 In the digital age, the rapid spread of misinformation has posed significant challenges. This project explores how machine learning can be applied to detect fake news. Using Logistic Regression and TF-IDF vectorization, the model analyzes the text content of news articles and classifies them as either 'Real' or 'Fake'.
+
 2. Prerequisites
 Before running the code, ensure the following libraries are installed:
  pandas
@@ -8,6 +9,7 @@ Before running the code, ensure the following libraries are installed:
  nltk
  seaborn
  matplotlib
+ 
 3.Dataset
 The dataset used in this project is a CSV file (`News.csv`) with two key columns:
   text: The news article's content.
